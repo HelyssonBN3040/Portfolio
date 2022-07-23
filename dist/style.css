@@ -146,7 +146,7 @@ h1 {
 
 .project-tile img {
     height: 250px;
-    width: 350px;
+    width: px;
     object-fit: cover;
 }
 
@@ -216,7 +216,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen  (max-width: 760px) {
     h1 {
         font-size: 2.5rem;
     }
@@ -231,5 +231,6 @@ footer {
         margin-left: 0;
         margin-right: 40px;
     }
+  
 
 }
