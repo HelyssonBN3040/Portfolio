@@ -11,17 +11,13 @@ body {
 }
 
 .logo .img-logo {
-    width: 80px;
+    width: 90px;
 }
 
-#navbar svg {
-    width: 100px;
-    height: 100px;
-}
 
 #navbar {
     background-color: #fafafa;
-    height: 100px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -60,7 +56,6 @@ a:hover {
     align-items: center;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
 }
 
 #welcome-section svg {
@@ -93,7 +88,6 @@ h1 {
 #projects,
 #contact {
     background-color: white;
-    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,9 +115,6 @@ h1 {
     flex-wrap: wrap;
     column-gap: 50px;
     row-gap: 50px;
-    width: 100%;
-    margin: 50px 0;
-    padding: 0 10px;
     justify-content: center;
     justify-items: center;
 }
