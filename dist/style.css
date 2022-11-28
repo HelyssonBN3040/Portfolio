@@ -64,7 +64,7 @@ a:hover {
 }
 
 #welcome-section svg {
-    fill: #9D4EDD;
+    fill: orange;
 }
 
 h1 {
@@ -72,10 +72,7 @@ h1 {
     text-align: center;
 }
 
-#welcome-section h3 {
-    position: absolute;
-    bottom: 125px;
-}
+
 
 .arrow {
     position: absolute;
@@ -275,21 +272,3 @@ footer {
       }
 }
 
-@media screen (max-width: 760px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    #navbar {
-        padding: 0;
-        flex-direction: column;
-        height: fit-content;
-    }
-
-    #navbar li {
-        margin-left: 0;
-        margin-right: 40px;
-    }
-   
-
-}
