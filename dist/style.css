@@ -211,7 +211,7 @@ footer {
         align-items:center;
         position: absolute;
         width: 100%;
-        top: 80px;
+        top: 130px;
         background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
         transition: 0.6s;
         z-index: 1000;
