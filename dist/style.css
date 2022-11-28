@@ -21,7 +21,7 @@ body {
 
 #navbar {
     background-color: #fafafa;
-    height: 100px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -203,6 +203,9 @@ footer {
     font-weight: bold;
     justify-content: center;
 }
+#btn{
+    display:none;
+}
 
 @media screen and (max-width: 1020px) {
     h1 {
@@ -211,9 +214,66 @@ footer {
     .about{
         text-align:justify;
     }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+      }
+      #navbar.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+      }
+      #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+      }
+      #btn {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+      }
+      #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+      }
+      #hamburger::after,
+      #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+      }
+      #navbar.active #hamburger {
+        border-top-color: transparent;
+      }
+      #navbar.active #hamburger::before {
+        transform: rotate(135deg);
+      }
+      #navbar.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+      }
 }
 
-@media screen  (max-width: 760px) {
+@media screen (max-width: 760px) {
     h1 {
         font-size: 2.5rem;
     }

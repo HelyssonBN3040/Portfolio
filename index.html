@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<script src="./dist/index.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio - Helysson</title>
     <link rel="stylesheet" href="./dist/style.css">
 
 </head>
-
 <body>
     <!-- partial:index.partial.html -->
     <nav id="navbar">
         <div class="logo">
             <img src="https://cdn-icons-png.flaticon.com/512/780/780529.png" alt="" class="img-logo"">
         </div>
-        <ul>
+        <button aria-label="Abrir Menu" id="btn" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+        <ul id="menu">
             <li><a href=" #projects">Projetos</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#contact">Contato</a></li>
-            </ul>
+        </ul>
     </nav>
     <section id="welcome-section">
         <h1>Olá me chamo Helysson<br>e sou Frontend developer.</h1>
@@ -38,8 +40,7 @@
         -->
             <div class="project-tile">
                 <a href="https://telalogin-lol.vercel.app">
-                    <img
-                        src="https://i.ibb.co/whhXSvf/Captura-de-Tela-89.png">
+                    <img src="https://i.ibb.co/whhXSvf/Captura-de-Tela-89.png">
                     <p>League of Legends Landing Page Clone</p>
                 </a>
             </div>
@@ -52,8 +53,7 @@
             </div>
             <div class="project-tile">
                 <a href="https://lista-de-presen-a.vercel.app">
-                    <img id="fb-img"
-                        src="https://i.ibb.co/tPTTT05/Captura-de-Tela-88.png"
+                    <img id="fb-img" src="https://i.ibb.co/tPTTT05/Captura-de-Tela-88.png"
                         style="background-color: white;">
                     <p>Lista de Presença com React</p>
                 </a>
@@ -87,7 +87,6 @@
     <footer>
         <p>Created with ❤️ by HCBN / Portfolio em constante atualização</p>
     </footer>
-    <!-- partial -->
 
 </body>
 
