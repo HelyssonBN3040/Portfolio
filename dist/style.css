@@ -133,20 +133,14 @@ h1 {
 }
 
 .project-tile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-    background-color: #fafafa;
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    transition: 0.3s;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
+    box-shadow:  36px 36px 71px #c5c5c5,
+                 -36px -36px 71px #ffffff;
 }
 
 .project-tile img {
     height: 250px;
-    width: px;
     object-fit: cover;
 }
 
@@ -213,6 +207,9 @@ footer {
 @media screen and (max-width: 1020px) {
     h1 {
         font-size: 3rem;
+    }
+    .about{
+        text-align:justify;
     }
 }
 
