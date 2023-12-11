@@ -12,13 +12,13 @@ body {
 }
 
 .logo .img-logo {
-    width: 90px;
+    width: 50px;
 }
 
 
 #navbar {
     background-color: #fafafa;
-    height: 150px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -114,10 +114,8 @@ h1 {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 50px;
-    row-gap: 50px;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
 }
 
 .project-tile {
@@ -125,6 +123,8 @@ h1 {
     background: linear-gradient(145deg, #d1d1d1, #f8f8f8);
     box-shadow:  36px 36px 71px #c5c5c5,
                  -36px -36px 71px #ffffff;
+    margin: 15px;
+    width: auto;
 }
 
 .project-tile img {
