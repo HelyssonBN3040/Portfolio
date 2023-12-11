@@ -128,7 +128,7 @@ h1 {
 }
 
 .project-tile img {
-    height: 250px;
+    height: 170px;
     object-fit: cover;
 }
 
@@ -139,6 +139,8 @@ h1 {
 .project-tile p {
     padding: 0;
     margin: 25px 0;
+    font-size: 15px;
+    text-align: center;
 }
 
 #fb-img {
@@ -155,7 +157,6 @@ h1 {
     padding: 50px 100px;
 }
 
-
 .about p {
     font-size: 1.5rem;
 }
@@ -166,7 +167,7 @@ h1 {
 
 .contact-card {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     width: 400px
 }
 
@@ -192,6 +193,7 @@ footer {
     align-items: center;
     font-weight: bold;
     justify-content: center;
+    text-align: center;
 }
 #btn{
     display:none;
