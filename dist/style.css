@@ -168,8 +168,8 @@ h1 {
 .contact-card {
     display: flex;
     justify-content:space-evenly;
-    width: 400px
-''}
+    width: 100%;
+}
 
 .contact-card a {
     display: flex;
