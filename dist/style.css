@@ -147,15 +147,17 @@ h1 {
 }
 
 .about {
+    text-align: justify;
     display: flex;
     flex-direction: column;
-    margin: 0 20%;
-    padding: 50px 0;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 100px;
 }
+
 
 .about p {
     font-size: 1.5rem;
-    line-height: 1.8;
 }
 
 #contact {
@@ -199,11 +201,12 @@ footer {
     h1 {
         font-size: 3rem;
     }
-    .about{
-        text-align:justify;
-    }
+
     li{
         margin:15px 0;
+    }
+    .about{
+        padding: 0 50px;
     }
     #menu {
         display: flex;
